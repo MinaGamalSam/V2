@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hsport.com.example.king.yahooweatherv2.Settings"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="225dp"
+        android:layout_height="162dp" >
+
+        <RadioButton
+            android:id="@+id/b_fahren"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Fahrenheit" />
+
+
+        <RadioButton
+            android:id="@+id/b_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text=" Celsius" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
+
+
